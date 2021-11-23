@@ -18,23 +18,23 @@ export default {
         return {
             brandImg: [
                 {
-                    img: '@/assets/buy-comics-digital-comics.png',
+                    img: require('@/assets/buy-comics-digital-comics.png'),
                     text: 'Digital Comics'
                 },
                 {
-                    img: '@/assets/buy-comics-digital-comics.png',
+                    img: require('@/assets/buy-comics-merchandise.png'),
                     text: 'DC Merchandise'
                 },
                 {
-                    img: '@/assets/buy-comics-digital-comics.png',
+                    img: require('@/assets/buy-comics-subscriptions.png'),
                     text: 'Subscription'
                 },
                 {
-                    img: '@/assets/buy-comics-digital-comics.png',
+                    img: require('@/assets/buy-comics-shop-locator.png'),
                     text: 'Comic shop locator'
                 },
                 {
-                    img: '@/assets/buy-comics-digital-comics.png',
+                    img: require('@/assets/buy-dc-power-visa.svg'),
                     text: 'dc power visa'
                 },
             ],
@@ -53,17 +53,21 @@ export default {
                 list-style: none;
                 display: flex;
                 justify-content: center;
+                padding: 20px;
                 
                 li {
                     display: flex;
                     img {
-                    width: 60px;
+                    width: 70px;
+                    height: 70px;
+                    padding: 5px;
+                    margin-left: 40px;
                     }
 
                     span {
                         display: flex;
                         align-items: center;
-                        padding: 1rem;
+                        // padding-left: 0.7rem;
                         text-transform: uppercase;
                         font-size: 12px;
                     }
