@@ -74,9 +74,13 @@ export default {
 <style scoped lang="scss">
 footer {
     background-image: url('../assets/footer-bg.jpg');
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
     background-repeat: no-repeat;
 }
 .colums {
+    
     display: flex;
     & > div {
         width: calc(100% / 2);

@@ -76,9 +76,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-header {
-    background-color: lightblue;
-}
 .section-1 {
     ul {
         display: flex;
