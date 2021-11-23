@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="colum-left">
-                <img src="../assets/dc-logo-bg.png" alt="">
+                <img src="../assets/dc-logo-bg.png" alt="brand-logo">
             </div>
         </section>
     </footer>
@@ -76,7 +76,6 @@ footer {
     background-image: url('../assets/footer-bg.jpg');
     width: 100%;
     height: 100%;
-    object-fit:cover;
     background-repeat: no-repeat;
 }
 .colums {
