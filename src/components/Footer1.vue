@@ -76,7 +76,9 @@ footer {
     background-image: url('../assets/footer-bg.jpg');
     width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100%;
+    background-position: center center;
 }
 .colums {
     
