@@ -15,6 +15,8 @@
     <!-- footer -->
     <footer>
       <!-- section-1 footer -->
+      <Footer1 />
+
       <!-- section-2 footer -->
     </footer>
 
@@ -25,6 +27,7 @@
 import Header from '@/components/Header.vue' 
 import Section1 from '@/components/Section1.vue' 
 import Section2 from '@/components/Section2.vue' 
+import Footer1 from '@/components/Footer1.vue' 
 
 
 export default {
@@ -33,6 +36,7 @@ export default {
     Header,
     Section1,
     Section2,
+    Footer1,
   }
 }
 </script>
