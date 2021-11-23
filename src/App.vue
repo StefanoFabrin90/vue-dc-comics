@@ -7,9 +7,16 @@
     <main>
       <!-- section-content-1 -->
       <Section1 />
-      
 
+      <!-- section-content-2 -->
+      <Section2 />
     </main>
+
+    <!-- footer -->
+    <footer>
+      <!-- section-1 footer -->
+      <!-- section-2 footer -->
+    </footer>
 
   </div>
 </template>
@@ -17,6 +24,7 @@
 <script>
 import Header from '@/components/Header.vue' 
 import Section1 from '@/components/Section1.vue' 
+import Section2 from '@/components/Section2.vue' 
 
 
 export default {
@@ -24,6 +32,7 @@ export default {
   components: {
     Header,
     Section1,
+    Section2,
   }
 }
 </script>
@@ -53,5 +62,9 @@ export default {
 
 .justify-content {
   justify-content: space-between;
+}
+
+.padding {
+  padding: 20px;
 }
 </style>

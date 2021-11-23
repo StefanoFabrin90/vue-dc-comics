@@ -1,28 +1,28 @@
 <template>
-    <section class="main-first">
-        <div class="section1 container padding">
-            <h1> Content goes Here </h1>
+    <section class="main-second">
+        <div class="section2 container padding">
+            <h1> Bonus goes Here </h1>
         </div>
     </section>
-  
 </template>
 
 <script>
 export default {
-    name: 'Section1'
+    name: 'Section2'
 }
 </script>
 
 <style scoped lang="scss">
-    .main-first {
-        background-color: black;
+    .main-second {
+        background-color: dodgerblue;
         height: 150px; 
     }
-    .section1 {
+    .section2 {
         h1 {
             color: white;
             vertical-align: middle;
             padding: 1rem;
         }
     }
+
 </style>

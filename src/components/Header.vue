@@ -1,6 +1,6 @@
 <template>
-    <header class="container ">
-        <section class="section-1 display-flex justify-content">
+    <header>
+        <section class="container section-1 display-flex justify-content padding">
             <a href="#">
                 <img src="../assets/dc-logo.png" alt="Brand">
             </a>
@@ -10,7 +10,6 @@
                 </li>
             </ul>
         </section>
-        
     </header>
 </template>
 
@@ -77,8 +76,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.section-1 {
+header {
     background-color: lightblue;
+}
+.section-1 {
     ul {
         display: flex;
         list-style: none;
