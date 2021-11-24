@@ -52,14 +52,13 @@ export default {
             ul {
                 list-style: none;
                 display: flex;
-                justify-content: center;
                 padding: 20px;
                 
                 li {
                     display: flex;
                     img {
                     width: 70px;
-                    height: 70px;
+                    height: 75px;
                     padding: 5px;
                     margin-left: 40px;
                     }
@@ -67,7 +66,6 @@ export default {
                     span {
                         display: flex;
                         align-items: center;
-                        // padding-left: 0.7rem;
                         text-transform: uppercase;
                         font-size: 12px;
                     }

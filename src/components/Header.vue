@@ -1,6 +1,6 @@
 <template>
     <header>
-        <section class="container section-1 display-flex justify-content padding">
+        <section class="container section-1 display-flex justify-content">
             <a href="#">
                 <img src="../assets/dc-logo.png" alt="Brand">
             </a>
@@ -77,6 +77,11 @@ export default {
 
 <style scoped lang="scss">
 .section-1 {
+    margin-top: 15px;
+    height: 90px;
+    img {
+        width: 80px;
+    }
     ul {
         display: flex;
         list-style: none;
@@ -84,15 +89,22 @@ export default {
         text-transform: uppercase;
         font-size: 12px;
 
+        li {
+            height: 100%;
+        }
+
         a {
-         display: inline-block;
-         padding: 0.7rem;
+         padding: 1rem;
          text-decoration: none;
          color: black;
          cursor: pointer;
-
+         border-bottom: 4px solid transparent;
+         height: 100%;
+         align-items: center;
+         display: flex;
+        
          &:hover {
-             border-bottom: 2px solid dodgerblue;
+             border-bottom: 4px solid dodgerblue;
          }
         }
     }
