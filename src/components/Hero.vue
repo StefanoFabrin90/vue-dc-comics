@@ -14,7 +14,7 @@ export default {
 
 <style scoped lang="scss">
 .hero {
-    height: 350px;
+    height: 400px;
     background-image: url('../assets/jumbotron.jpg');
     background-size: cover;
 }
