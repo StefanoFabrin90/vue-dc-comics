@@ -237,7 +237,12 @@ footer {
         }
     }
 
-    
+    .colum-left {
+        background-image: url('../assets/dc-logo-bg.png');
+        overflow: hidden;
+        // background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
 
