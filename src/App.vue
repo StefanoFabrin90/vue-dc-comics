@@ -50,33 +50,7 @@ export default {
 </script>
 
 <style lang="scss">
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
+  @import'@/styles/global.scss';
+  @import'@/styles/Utilities.scss';
 
-  img {
-    max-width: 100%;
-  }
-
-  // utilities
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
-
-.display-flex {
-  display: flex;
-}
-
-.justify-content {
-  justify-content: space-between;
-}
-
-.padding {
-  padding: 20px;
-}
 </style>
