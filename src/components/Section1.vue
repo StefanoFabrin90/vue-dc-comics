@@ -1,7 +1,7 @@
 <template>
     <section class="main-first">
         <div class="section1 container padding">
-            <h1> Current Series </h1>
+            <span> Current Series </span>
             <ul class="boxes">
                 <li v-for="(item, index) in ComixS" :key="`item-${index}`">
                     <a href="#">
@@ -113,6 +113,18 @@ export default {
     .main-first {
         background-color: black;
         color: white;
+        position: relative;
+
+        span {
+            padding: 10px 30px;
+            background-color: dodgerblue;
+            color: white;
+            z-index: 1;
+            position: absolute;
+            top: -20px;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
 
         .btn-more {
             display: flex;
@@ -137,6 +149,7 @@ export default {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
+        margin-top: 15px;
 
         li {
             width: calc(100% / 6);
