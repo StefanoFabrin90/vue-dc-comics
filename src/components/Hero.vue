@@ -1,7 +1,6 @@
 <template>
     <section class="hero">
         <div class="container">
-            <h1>test</h1>
         </div>
     </section>
 </template>

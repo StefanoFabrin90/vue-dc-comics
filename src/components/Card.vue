@@ -21,4 +21,10 @@ h3 {
     font-size: 12px;
     padding-top: 10px;
 }
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
 </style>

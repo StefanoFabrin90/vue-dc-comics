@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="colum-left">
-                <img src="../assets/dc-logo-bg.png" alt="brand-logo">
+                <!-- <img src="../assets/dc-logo-bg.png" alt="brand-logo"> -->
             </div>
         </section>
     </footer>
@@ -236,6 +236,8 @@ footer {
             }
         }
     }
+
+    
 }
 
 
